@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Landing page</title>
 </head>
 <body>
@@ -15,40 +16,57 @@
         </nav>
     </header>
     <section class="hero">
-        <h1>This website is awesome</h1>
-        <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-        <button type="submit">Sign up</button>
-        <img src="" alt="">
+        <div class="hero-info">
+            <h1>This website is awesome</h1>
+            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+            <button type="submit">Sign up</button>
+        </div>
+        <div class="hero-img">
+            <img src="" alt="">
+        </div>
+        
     </section>
     <section class="information">
         <h2>Some random information.</h2>
-        <div class="card">
-            <img src="" alt="">
+        <div class="card-section">
+             <div class="card">
+            <img class="card-img" src="" alt="">
             <p>this is some subtext under an ilustration or image</p>
         </div>
         <div class="card">
-            <img src="" alt="">
+            <img class="card-img" src="" alt="">
             <p>this is some subtext under an ilustration or image</p>
         </div>
         <div class="card">
-            <img src="" alt="">
+            <img class="card-img" src="" alt="">
             <p>this is some subtext under an ilustration or image</p>
         </div>
         <div class="card">
-            <img src="" alt="">
+            <img class="card-img" src="" alt="">
             <p>this is some subtext under an ilustration or image</p>
         </div>
+        </div>
+       
     </section>
     <section class="quote">
-        <p>This is an inspiring quote, or testimonial for a customer. Maybe It's just filling up space, 
+        <div class="container">
+            <blockquote>This is an inspiring quote, or testimonial from a customer. Maybe It's just filling up space, 
             or maybe people will actually read it. Who knows? All I know is that it looks nice.
-        </p>
-        <p>-Thor, God of Thunder</p>
+            </blockquote>
+            <cite>-Thor, God of Thunder</cite>
+        </div>
+        
     </section>
     <section class="call-to-action">
-        <p>Call to action! It's time!</p>
-        <p>Sign up for our product by clicking that button right over there!</p>
-        <button type="submit">Sign up</button>
+        <div class="container-2">
+            <div>
+                <p class="primary-text">Call to action! It's time!</p>
+                <p>Sign up for our product by clicking that button right over there!</p>
+            </div>
+            
+            <button id="call-button" type="submit">Sign up</button>
+        </div>
+        
     </section>
     <footer>
         <p>Copyright &copy; The Odin Project 2026</p>
